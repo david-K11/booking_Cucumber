@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Book first displayed hotel
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 127.105 s <<< FAILURE! - in Book first displayed hotel
+Book first displayed hotel.Book first displayed hotel  Time elapsed: 127.105 s  <<< FAILURE!
+java.lang.AssertionError
+

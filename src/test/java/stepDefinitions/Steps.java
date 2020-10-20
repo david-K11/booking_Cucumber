@@ -11,13 +11,16 @@ import java.util.concurrent.TimeUnit;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.TakesScreenshot;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
 import pageObjects.Checkout;
 import pageObjects.Home;
@@ -43,8 +46,17 @@ public class Steps extends BaseClass {
 	}
 
 	@After
-	public void afterScenario() {
-		driver.quit();
+	public void tearDown(Scenario scenario) {
+		String screenshotName = scenario.getName().replaceAll(" ", "_");
+		if (scenario.isFailed()) {
+			byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+
+			scenario.attach(screenshot, "image/png", screenshotName);
+
+			driver.quit();
+		} else {
+			driver.quit();
+		}
 	}
 
 	/* Background */
@@ -270,7 +282,7 @@ public class Steps extends BaseClass {
 		System.out.println(recomended);
 
 		if (hotelName == true && hotelRaiting == true /*
-														 * && recomended.equals("Recommended for "
+														 * && recomended.equals("Recommended for " //can't find how to use variables from another method??
 														 * +numberadults+" adults,  "+numberchildren+" child")
 														 */ ) {
 			Assert.assertTrue(true);

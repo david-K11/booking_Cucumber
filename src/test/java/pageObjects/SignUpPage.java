@@ -10,7 +10,7 @@ import utilities.WaitHelper;
 public class SignUpPage {
 	public WebDriver ldriver;
 	WaitHelper waithelper;
-	
+
 	public SignUpPage(WebDriver rdriver) {
 		ldriver = rdriver;
 		PageFactory.initElements(rdriver, this);

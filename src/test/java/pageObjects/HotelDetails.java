@@ -18,19 +18,16 @@ public class HotelDetails {
 		waithelper = new WaitHelper(ldriver);
 	}
 
-	@FindAll({
-	@FindBy( className = "hprt-reservation-total-price bui-price-display__value"),
-	@FindBy( className =  "hprt-booking-summary-rooms-and-price"),
-	@FindBy(css = "div.hprt-reservation-total-price.bui-price-display__value")
-	})
+	@FindAll({ @FindBy(className = "hprt-reservation-total-price bui-price-display__value"),
+			@FindBy(className = "hprt-booking-summary-rooms-and-price"),
+			@FindBy(css = "div.hprt-reservation-total-price.bui-price-display__value") })
 	WebElement txtTotalPrice;
 
 	@FindBy(linkText = "Reserve")
 	WebElement btnReserve;
 
-	@FindAll({
-	@FindBy(xpath="//form[@id='hprt-form']/div[10]/div[2]/div[2]/div[6]/button"),
-	@FindBy(xpath="//div[6]/button"),
+	@FindAll({ @FindBy(xpath = "//form[@id='hprt-form']/div[10]/div[2]/div[2]/div[6]/button"),
+			@FindBy(xpath = "//div[6]/button"),
 //	@FindBy(id="b_tt_holder_4")
 	})
 	WebElement btnIllReserve;

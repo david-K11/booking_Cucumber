@@ -6,18 +6,17 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-			tags="@smoke",
-				features = 
+		tags="@smoke",
+		features = 
 				".//Features/",
-//				".//Features/BookFirstDisplayedHotel.feature"
-//				".//Features/AccountCreation.feature",
 
 		glue = "stepDefinitions", 
 		dryRun = false, 
 		publish = true,
 		monochrome = true,
 		plugin = { "pretty",
-				"html:target/cucumber-html-report", }
+				"html:target/cucumber-html-report",
+				"json:target/cucumber.json"}
 
 )
 

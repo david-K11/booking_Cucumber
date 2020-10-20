@@ -1,0 +1,946 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Language and currency",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13158528700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Steps.page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4848165500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "set up language to English",
+            "match": {
+              "location": "stepDefinitions.Steps.set_up_language_to_english()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6525983400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "set up currency to USD",
+            "match": {
+              "location": "stepDefinitions.Steps.set_up_currency_to_usd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5744459800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Language is English and currency is USD",
+            "match": {
+              "location": "stepDefinitions.Steps.language_is_english_and_currency_is_usd()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-19T03:49:25.506Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5589664000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Account creation",
+        "description": "",
+        "id": "account-creation;account-creation",
+        "after": [
+          {
+            "result": {
+              "duration": 6023828800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2236622900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am in Sign Up page",
+            "match": {
+              "location": "stepDefinitions.Steps.i_am_in_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 521677800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter valid user email",
+            "match": {
+              "location": "stepDefinitions.Steps.i_enter_valid_user_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 716560300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on “GET STARTED” button",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_get_started_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3015142100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter valid password",
+            "match": {
+              "location": "stepDefinitions.Steps.i_enter_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 358778900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on “Create Account” button",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_create_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5525597900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "main page is opened",
+            "match": {
+              "location": "stepDefinitions.Steps.main_page_is_opened()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14801472100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on “My Dashboard” button under account menu",
+            "match": {
+              "location": "stepDefinitions.Steps.i_click_on_my_dashboard_button_under_account_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3572797300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "“My Dashboard” page is opened",
+            "match": {
+              "location": "stepDefinitions.Steps.my_dashboard_page_is_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2149676000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "correct value is prefilled in email verification placeholder  //based on registered email",
+            "match": {
+              "location": "stepDefinitions.Steps.correct_value_is_prefilled_in_email_verification_placeholder_based_on_registered_email()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Account Creation",
+    "description": "",
+    "id": "account-creation",
+    "keyword": "Feature",
+    "uri": "file:Features/AccountCreation.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Language and currency",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13852037700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Steps.page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5111003600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "set up language to English",
+            "match": {
+              "location": "stepDefinitions.Steps.set_up_language_to_english()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10366615000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "set up currency to USD",
+            "match": {
+              "location": "stepDefinitions.Steps.set_up_currency_to_usd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3375921800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Language is English and currency is USD",
+            "match": {
+              "location": "stepDefinitions.Steps.language_is_english_and_currency_is_usd()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-19T03:49:25.538Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4902512900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Book cheapest hotel in city",
+        "description": "",
+        "id": "book-cheapest-hotel-in-city;book-cheapest-hotel-in-city",
+        "after": [
+          {
+            "result": {
+              "duration": 1212252300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36073907100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I have account created",
+            "match": {
+              "location": "stepDefinitions.Steps.i_have_account_created()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2782287400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am in \"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_am_in_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196879000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I set up destination as \"Riga\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Riga\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_set_up_destination_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2988161100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I set dates \"26-11-2020\" - \"29-11-2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26-11-2020\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"29-11-2020\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_set_dates(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 565650600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select \"2\" adults and \"0\" children",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_select_adults_and_children(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5668508100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \"Search\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Search\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_click_on_Search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d86.0.4240.75)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027STREAMING-LAPTO\u0027, ip: \u0027192.168.0.30\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\david\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65318}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b3071c737bb726a4852df7558bd04c92\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat stepDefinitions.Steps.i_click_on_for_the_cheapest_hotel_in_the_list_with_a_rating_above_stars(Steps.java:331)\r\n\tat ✽.I click on \"Choose your room\" for the cheapest hotel in the list with a rating above \"3\" stars(file:///C:/Users/david/eclipse-workspace/booking_Cucumber/./Features/BookCheapestHotel.feature:17)\r\n",
+              "duration": 8261909800,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "I click on \"Choose your room\" for the cheapest hotel in the list with a rating above \"3\" stars",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Choose your room\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 85
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_click_on_for_the_cheapest_hotel_in_the_list_with_a_rating_above_stars(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "\" Hotel Details\" page is opened for selected hotel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Hotel Details\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Steps.page_is_opened_for_selected_hotel(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I click on \"I\u0027ll Reserve\" button for the most expensive available room in the hotel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I\u0027ll Reserve\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_click_on_button_for_the_most_expensive_available_room_in_the_hotel(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "\"Your Details\" page is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your Details\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Steps.page_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I enter valid booking information",
+            "match": {
+              "location": "stepDefinitions.Steps.i_enter_valid_booking_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I click on \"Next: Final Details\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Next: Final Details\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_click_on_Search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "\"Final Details\" page is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Final Details\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Steps.page_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Book cheapest hotel in city",
+    "description": "",
+    "id": "book-cheapest-hotel-in-city",
+    "keyword": "Feature",
+    "uri": "file:Features/BookCheapestHotel.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Language and currency",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13188546700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Steps.page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5167968100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "set up language to English",
+            "match": {
+              "location": "stepDefinitions.Steps.set_up_language_to_english()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9227316400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "set up currency to USD",
+            "match": {
+              "location": "stepDefinitions.Steps.set_up_currency_to_usd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8115003100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Language is English and currency is USD",
+            "match": {
+              "location": "stepDefinitions.Steps.language_is_english_and_currency_is_usd()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-19T03:49:25.573Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5801991700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Book first displayed hotel",
+        "description": "",
+        "id": "book-first-displayed-hotel;book-first-displayed-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 824429200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26718131200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I have account created",
+            "match": {
+              "location": "stepDefinitions.Steps.i_have_account_created()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6339633600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am in \"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_am_in_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294817400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I set up destination as \"Liepaja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Liepaja\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_set_up_destination_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1698953400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I set dates \"28-11-2020\" - \"30-11-2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"28-11-2020\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"30-11-2020\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_set_dates(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 346785400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select \"2\" adults and \"1\" children",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_select_adults_and_children(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5535592200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \"Search\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Search\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_click_on_Search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3243001400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on \"Choose your room\" for fist hotel in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Choose your room\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_click_on_for_fist_hotel_in_the_list(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7048658500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"Hotel Details\" page is opened for selected hotel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Details\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Steps.page_is_opened_for_selected_hotel(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3008148900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on \"Reserve\" button for recommended room",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Reserve\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_click_on_button_for_recommended_room(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25287852100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on “I\u0027ll Reserve” button",
+            "match": {
+              "location": "stepDefinitions.Steps.i_click_on_i_ll_reserve_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27981100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "\"Your Details\" page is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your Details\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Steps.page_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1684960100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter valid booking information",
+            "match": {
+              "location": "stepDefinitions.Steps.i_enter_valid_booking_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on \"Next: Final Details\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Next: Final Details\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.Steps.i_click_on_Search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinitions.Steps.page_is_displayed(Steps.java:310)\r\n\tat ✽.\"Final Details\" page is displayed(file:///C:/Users/david/eclipse-workspace/booking_Cucumber/./Features/BookFirstDisplayedHotel.feature:24)\r\n",
+              "duration": 3107284600,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "\"Final Details\" page is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Final Details\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.Steps.page_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Book first displayed hotel",
+    "description": "",
+    "id": "book-first-displayed-hotel",
+    "keyword": "Feature",
+    "uri": "file:Features/BookFirstDisplayedHotel.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

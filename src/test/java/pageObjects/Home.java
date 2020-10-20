@@ -179,6 +179,7 @@ public class Home {
 		waithelper.WaitForElement(closeAlert, 5);
 		if (closeAlert.isDisplayed()) {
 			closeAlert.click();
+
 		}
 	}
 
